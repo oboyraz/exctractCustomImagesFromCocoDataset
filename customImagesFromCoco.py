@@ -108,5 +108,5 @@ def main(subset, year, root_dir, category='truck'):
 
 if __name__ == '__main__':
  subset, year='train', '2017'
- root_dir = '/media/isuzuotonom/Extreme SSD/Asrin_datas/coco/annotations_trainval2017/annotations'
+ root_dir = '/coco/annotations_trainval2017/annotations'
  main(subset, year, root_dir, category='truck')
